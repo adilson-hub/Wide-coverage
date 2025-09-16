@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 47px 0 121px 42px;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    cursor: pointer;
+}
+
+.Link-Header {
+    margin-right: 32px;
+    color: #17233D;
+}
+
+.Button-Header {
+    background-color: #4CB538;
+    border: none;
+    width: 124px;
+    height: 51px;
+    border-radius: 10.5px;
+    color: #FFFFFF;
+}
+
+img {
+    width: 595px;
+    height: 500px;
+    margin-left: 121px;
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+    margin-left: 65px;
+    margin-bottom: 33px;
+}
+
+p {
+    width: 400px;
+    height: 99px;
+    color: #4B505A;
+    margin-left: 65px;
+}
+
+.link-section {
+    width: 112px;
+    height: 27px;
+    margin-left: 65px;
+    font-size: 18px;
+    line-height: 82px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+
+}
+
+@media (max-width:600px) {
+    .Link-Header {
+        display: none;
+    }
+
+    header {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    main {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+
+    section {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+
+    button {
+        margin: 15px 15px 0 70%;
+        padding: 0px;
+        width: 91px;
+        height: 31px;
+    }
+
+    .Button-Header {
+        width: 91px;
+        height: 31px;
+    }
+
+    img {
+        max-width: 90%;
+        margin: 0px;
+        padding: 10%;
+        height: auto;
+        position: relative;
+        left: 5%;
+        top: 480px;
+    }
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    width: 278px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    width: 304px;
+    height: 165px;
+    padding: 0px 10%;
+    margin: 25px 0;
+}
+
+.link-section {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 112px;
+    height: 27px;
+    margin: 0px 33%;
+}
